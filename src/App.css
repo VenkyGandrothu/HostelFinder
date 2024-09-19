@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+/* Tailwind configuration */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.navbar-container {
+  @apply bg-[#25274D] py-4 px-6 flex justify-between items-center relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  @apply flex items-center justify-between w-full;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-left {
+  @apply flex items-center;
+}
+
+.brand-name {
+  @apply text-white text-xl font-semibold;
+}
+
+.nav-middle {
+  @apply hidden md:flex flex-grow justify-center items-center;
+}
+
+.search-bar {
+  @apply w-full max-w-md h-12 px-4 rounded-full border border-gray-300 shadow-md;
+}
+
+.search-button {
+  @apply ml-2 bg-pink-500 text-white font-semibold py-2 px-4 rounded-full transition-colors duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-black;
+}
+
+.nav-right {
+  @apply flex items-center;
+}
+
+.menu-toggle {
+  @apply md:hidden text-white text-2xl focus:outline-none;
+}
+
+.menu-icon {
+  @apply text-white;
+}
+
+.desktop-menu {
+  @apply hidden md:flex space-x-4;
+}
+
+.nav-items {
+  @apply flex items-center space-x-12;
+}
+
+.nav-item {
+  @apply text-white font-semibold hover:text-red-500 transition-colors;
+}
+
+.mobile-menu {
+  @apply fixed top-0 left-0 w-full bg-white text-[#25274D] p-6;
+}
+
+.mobile-menu-items {
+  @apply flex flex-col space-y-4;
+}
+
+.mobile-menu-item {
+  @apply text-lg font-semibold hover:text-red-500;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .search-bar {
+    display: block;
+  }
+
+  .search-button {
+    display: block;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-link {
+  @apply flex items-center justify-center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-icon {
+  @apply w-10 h-10 rounded-full border-2 border-black bg-white; /* Adjust width, height, and border as needed */
 }

@@ -1,0 +1,23 @@
+
+.UserListBody{
+    padding: 0;
+    margin: 0;
+    font-family: ' font-family:  "Poppins", sans-serif;';
+}
+
+.Ulcontainer{
+  width: 400px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+img{
+   margin-left: 90px;
+}
+
+.userDeatails{
+  margin-left: 100px;
+}

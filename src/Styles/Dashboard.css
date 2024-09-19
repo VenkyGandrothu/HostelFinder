@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: #25274D;
+    padding: 10px;
+    height: 80px;
+
+}
+nav li{
+  list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+span{
+    color: #fff;
+    cursor: pointer;
+}
+
+.icons{
+    padding-left: 40px;
+}
+
+.icons ul{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 1000px;
+}
+.icons ul li{
+    padding-right: 60px;
+
+}
+.icons ul li a{
+    font-weight: 500;
+}
+
+.Dashboard h1{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pagebtn{
+    width: 225px;
+    height: 60px;
+    margin: 50px 0px 0px 640px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #3E5CB8;
+    color:#fff;
+    border: none;
+    border-radius: 40px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.6s, transform 0.5s; /* Smooth transition */
+    position: relative;
+    overflow: hidden; 
+}
+
+span:hover {
+    color: red;
+}
+
+.pagebtn:hover {
+    background-color: #e000d6;
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.pagebtn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.75s;
+    border-radius: 40%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+

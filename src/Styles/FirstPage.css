@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Poppins", sans-serif;
+}
+
+.Homecontainer{
+    display: flex;
+    background-color: #CCFFFF;
+}
+
+.hostelcards{
+   display: flex;
+   flex-direction: column;
+}
+.menshostel {
+        display: flex;
+        color: black;
+        height: 170px;
+        width: 350px;
+        font-weight: 700;
+        font-size: 30px;
+        background-color: #d8d7df;
+        border-radius: 20px;
+        background-image: url(../images/Men.png); 
+        background-size: cover;
+        background-size: 47%;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0 2px 4px #080000;
+        margin: 10px 60px 10px 150px;
+        border: none;
+}
+.menshostelname{
+    padding-top: 120px;
+    padding-left: 75px;
+}
+
+.menshostelname p{
+    background-color: #ccffff6d;
+    box-shadow: 0 1px 1px black;
+    border-radius: 10px;
+}
+
+.ladieshostel{
+    display: flex;
+    color: black;
+    height: 170px;
+    width: 350px;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #d8d7df;
+    border-radius: 20px;
+    background-image: url(../images/Ladies.png); 
+    background-size: cover;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 4px #080000;
+    margin: 10px 60px 10px 150px;
+    border: none;
+}
+
+
+
+.ladieshostelname{
+    padding-top: 120px;
+    padding-left: 70px;
+}
+
+.ladieshostelname p{
+    background-color: #ccffff6d;
+    box-shadow: 0 1px 1px black;
+    border-radius: 10px;
+}
+
+.colivinghostel{
+    display: flex;
+        color: black;
+        height: 170px;
+        width: 350px;
+        font-weight: 700;
+        font-size: 27px;
+        background-color: #d8d7df;
+        border-radius: 20px;
+        background-image: url(../images/Coliving.png); 
+        background-size: cover;
+        background-size: 45%;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0 2px 4px #080000;
+        margin: 10px 60px 10px 150px;
+        border: none;
+}
+
+
+
+
+.colivinghostelname{
+    padding-top: 120px;
+    padding-left: 55px;
+}
+
+.colivinghostelname p{
+    background-color: #ccffff6d;
+    box-shadow: 0 1px 1px black;
+    border-radius: 10px;
+}
+
+.menshostel span{
+      padding: 132px 0px 0px 43px;
+      color: black;
+}
+.ladieshostel span{
+    padding: 132px 0px 0px 25px;
+    color: black;
+}
+.colivinghostel span{
+    padding: 132px 0px 0px 40px;
+    color: black;
+}
+

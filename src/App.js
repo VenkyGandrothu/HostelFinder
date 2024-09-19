@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import LoginPage from './components/User/LoginPage';
+import FirstPage from './components/User/FirstPage';
+import SignupPage from './components/User/SignupPage';
+import HostelList from './components/User/HostelList';
+import Aboutus from './components/User/Aboutus'
+import AddHostel from './components/Admin/AddHostel';
+import Dashboard from './components/Admin/Dashboard';
+import HostelDetail from './components/User/HostelDetail';
+import UserList from './components/Admin/UserList';
+import { Routes,Route } from 'react-router-dom';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Routes>
+      <Route path="/"element={<FirstPage/>} />
+      <Route path='/FirstPage' element={<FirstPage/>}/>
+      <Route path='/LoginPage' element={<LoginPage/>}/>
+      <Route path='/SignupPage' element={<SignupPage/>}/>
+      <Route path='/HostelList' element={<HostelList/>}/>
+      <Route path='/Aboutus' element={<Aboutus/>}/>
+      <Route path='/Dashboard' element={<Dashboard/>}/>
+      <Route path='/AddHostel' element={<AddHostel/>}/>
+      <Route path='/UserList' element={<UserList/>}/>
+      <Route path='/HostelDetail' element={<HostelDetail/>}/>
+    </Routes>
     </div>
   );
 }
-
 export default App;

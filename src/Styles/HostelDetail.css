@@ -1,0 +1,20 @@
+
+.hostelImg{
+    height: 350px;
+    width: 864px;
+    padding: 50px 0px 0px  0px;
+}
+h1{
+    padding-left: 10px;
+}
+
+.priceofHostel{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0px 0px 15px;
+}
+.addressofHostel{
+    font-size: 15px;
+    padding-left: 10px;
+
+}

@@ -1,0 +1,287 @@
+.Body{
+    margin: 0;
+    padding: 0;
+    font-family:  "Poppins", sans-serif;
+}
+
+.container{
+    width: 450px;
+    height: 675px;
+    margin: 20px  400px 0px 500px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.Singup-Heading{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.name{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.name input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.name input:focus{
+    border-color: #3E5CB8;
+}
+.surname{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.surname input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.surname input:focus{
+    border-color: #3E5CB8;
+}
+.dop{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.dop label{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.gender{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.gender label{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="radio"]{
+    margin-left: 30px;
+}
+
+.gender input[type="radio"]:checked+label {
+   color: #3E5CB8;
+}
+
+.mail{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.mail input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.mail input:focus{
+    border-color: #3E5CB8;
+}
+.createpassword{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.createpassword input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.createpassword input:focus{
+    border-color: #3E5CB8;
+}
+.re-enterpassword{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.re-enterpassword input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.re-enterpassword input:focus{
+    border-color: #3E5CB8;
+}
+.username{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.username input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.username input:focus{
+    border-color: #3E5CB8;
+}
+.profession{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.profession input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.profession input:focus{
+    border-color: #3E5CB8;
+}
+.address{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.address input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.address input:focus{
+    border-color: #3E5CB8;
+}
+.location{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.location input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.location input:focus{
+    border-color: #3E5CB8;
+}
+.food{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.food label{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+.food input[type="radio"]:checked+label {
+    color: #3E5CB8;
+ }
+.reason{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+  
+
+
+.reason input{
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.reason input:focus{
+    border-color: #3E5CB8;
+}
+.Signup-button{
+    padding-top: 40px;
+}
+
+.Signup-button button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: #3E5CB8;
+    color:#fff;
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.Signup-button button:hover{
+    color: black;
+    background-color: #fff;
+    border: solid 3px #3E5CB8;
+}
+
+.havingAccount{
+    padding-left: 45px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.havingAccount a{
+    font-family: "Poppins", sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.4);
+}
+
+.havingAccount a:hover{
+    color: black;
+    border-bottom: 1px solid black; 
+}

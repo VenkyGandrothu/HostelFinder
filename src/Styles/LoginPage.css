@@ -1,0 +1,112 @@
+
+
+
+.login-Container{
+    width: 450px;
+    height: 400px;
+    margin: 110px  400px 110px 500px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  .Login-Heading{
+      font-family: "Poppins", sans-serif;
+      padding-left: 170px;
+      padding-top: 20px;
+  }
+  
+  .login-inputs{
+      display: flex;
+      flex-direction: column;
+      padding-top: 40Px;
+  }
+  
+  .Username-box{
+      padding-left: 75px;
+      display: flex;
+  }
+  
+  .Password-box{
+      padding-left: 75px;
+      padding-top: 20px;
+      display: flex;
+  
+  }
+  
+  .Username-box input{
+      font-family: "Poppins", sans-serif;
+      width: 275px;
+      height: 45px;
+      padding-left: 10px;
+      padding-top: 10px;
+      border: none;
+      outline: none;
+      border-radius: 0px;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+      
+  }
+  
+  .Username-box input:focus{
+      border-color: #3E5CB8;
+  }
+  
+  .Password-box input{
+      color: #000;
+      font-family: "Poppins", sans-serif;
+      width: 275px;
+      height: 45px;
+      padding-left: 10px;
+      padding-top: 10px;
+      border: none;
+      outline: none;
+      border-radius: 00px;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .Password-box input:focus{
+      border-color: #3E5CB8;
+  }
+  
+  .Login-button{
+      padding-top: 30px;
+  
+  }
+  .Login-button button{
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      background-color: #3E5CB8;
+      color:#fff;
+      width: 150px;
+      height: 50px;
+      margin-left: 150px;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 0.6s;
+  }
+  
+  .Login-button button:hover{
+      color: black;
+      background-color: #fff;
+      border: solid 3px #3E5CB8;
+  }
+  
+  .forgotpassword{
+      padding-left: 85px;
+      padding-top: 5px;
+      cursor: pointer;
+  }
+  
+  .forgotpassword a{
+      font-family: "Poppins", sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .forgotpassword a:hover{
+      color: black;
+      border-bottom: 1px solid black;
+  }

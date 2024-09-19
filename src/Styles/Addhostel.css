@@ -1,0 +1,77 @@
+*{
+    font-family:  "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Details{
+    display: flex;
+    flex-direction: column;
+}
+.Details-Heading{
+    margin-left: 560px;
+}
+
+.hosteldetailsbody{
+    max-width: 900px;
+    width: 700px;
+    margin: 20px  400px 0px 400px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.inputtext{
+    font-family: "Poppins", sans-serif;
+    width: 550px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.ahcontainer{
+    padding-left: 50px;
+    padding-top: 35px;
+}
+
+.ahcontainer{
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.7);
+}
+input[type="radio"]{
+    margin-left: 50px;
+}
+.lable input[type="radio"]:checked+label {
+    color: #3E5CB8;
+   
+ }
+ input[type="file"] {
+    display: none;
+  }
+
+
+.Addbtn{
+    padding: 10px;
+    margin: 50px 200px 10px 200px;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    background-color: #3E5CB8;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+input:focus{
+    border-color: #3E5CB8;
+}
+
+.Addbtn:hover{
+    color: black;
+    background-color: #fff;
+    border: solid 3px #3E5CB8;
+}

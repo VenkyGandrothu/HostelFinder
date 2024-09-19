@@ -1,0 +1,181 @@
+/* Navbar container styling */
+.navbar-container {
+    width: 100%;
+    background-color: #25274D;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Navbar layout */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Brand name styling */
+  .brand-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  
+  /* Centered search bar and button */
+  .nav-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 600px;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 70%;
+    border-radius: 30px;
+    border: 1px solid #bdc3c7;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* On focus, add shadow */
+  .search-bar:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-color: #7f8c8d;
+  }
+  
+  /* Search button */
+  .search-button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Right section for menu items */
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Menu toggle for mobile */
+  .menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: #ecf0f1;
+    display: none; /* Hidden initially, will show on mobile */
+  }
+  
+  /* Desktop menu */
+  .desktop-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-items li {
+    margin-right: 25px;
+  }
+  
+  .nav-item {
+    font-size: 18px;
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #bdc3c7;
+    border-bottom: 2px solid #e74c3c;
+  }
+  
+  /* Mobile menu */
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #34495e;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .mobile-menu-items li {
+    margin: 15px 0;
+  }
+  
+  .mobile-menu-item {
+    font-size: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .mobile-menu-item:hover {
+    color: #e74c3c;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For mobile screens */
+  @media (max-width: 768px) {
+    .brand-name {
+      font-size: 22px;
+    }
+  
+    .nav-middle {
+      display: none; /* Hide search bar on mobile */
+    }
+  
+    .menu-toggle {
+      display: block; /* Show menu toggle on mobile */
+    }
+  
+    .desktop-menu {
+      display: none; /* Hide desktop menu */
+    }
+  
+    .mobile-menu.visible {
+      display: flex; /* Show mobile menu when visible */
+    }
+  }
+  
+  /* For tablet and laptop screens */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .search-bar {
+      width: 60%;
+    }
+  
+    .brand-name {
+      font-size: 24px;
+    }
+  
+    .nav-item {
+      font-size: 16px;
+    }
+  }
+  
